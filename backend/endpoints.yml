@@ -34,13 +34,13 @@ action_endpoint:
 #     auth_source: admin
 
 
-tracker_store:
-    type: SQL
-    dialect: "mysql"  # the dialect used to interact with the db
-    url: "34.93.68.94"  # (optional) host of the sql db, e.g. "localhost"
-    db: "rasa_feedback"  # path to your db
-    username:  "ssc" # username used for authentication
-    password:  "1234" # password used for authentication
+# tracker_store:
+#     type: SQL
+#     dialect: "mysql"  # the dialect used to interact with the db
+#     url: "34.93.68.94"  # (optional) host of the sql db, e.g. "localhost"
+#     db: "rasa_feedback"  # path to your db
+#     username:  "ssc" # username used for authentication
+#     password:  "1234" # password used for authentication
 
 
 
